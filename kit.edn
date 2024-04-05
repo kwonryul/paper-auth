@@ -1,0 +1,8 @@
+{:full-name "kwonryul/paper-auth"
+ :ns-name   "kwonryul.paper-auth"
+ :sanitized "kwonryul/paper_auth"
+ :name      "paper-auth"
+ :modules   {:root         "modules"
+             :repositories [{:url  "https://github.com/kit-clj/modules.git"
+                             :tag  "master"
+                             :name "kit-modules"}]}}
