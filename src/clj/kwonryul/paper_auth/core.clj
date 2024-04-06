@@ -11,7 +11,10 @@
 
     ;; Routes
     [kwonryul.paper-auth.web.routes.api]
-    )
+    
+    [kwonryul.paper-auth.web.routes.pages] 
+    [kit.edge.db.sql.conman] 
+    [kit.edge.db.sql.migratus])
   (:gen-class))
 
 ;; log uncaught exceptions in threads
